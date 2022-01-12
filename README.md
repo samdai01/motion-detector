@@ -6,13 +6,13 @@ This program first takes the first input frame from the video and sets it as the
 
 <img src="https://user-images.githubusercontent.com/89489298/149049540-697bc27c-95ff-4483-ae13-4f9b52146137.png" width="785" height="594">
 
-The program takes each frame of the input feed from the camera and converts it to a grayscale image and blurs it to make the contrasts more clear.                                                                             <img src="https://user-images.githubusercontent.com/89489298/149049273-dad07f27-fb1c-4472-b463-dc95a60a69aa.png" width="785" height="594">
+The program takes each frame of the input feed from the camera, converts it to grayscale, and blurs it to make the differences clearer.                                             <img src="https://user-images.githubusercontent.com/89489298/149049273-dad07f27-fb1c-4472-b463-dc95a60a69aa.png" width="785" height="594">
 
 
-Then a black and white image that is composed of the differences between the first frame and the current frame ![image]()
+Then a black and white image that is composed of the differences between the first frame and the current frame.
 
 <img src="https://user-images.githubusercontent.com/89489298/149049365-e5afdeb8-86f8-44b6-9d4e-18d0918b596b.png" width="785" height="594">
-. These differences are highlighted in white ![image]()
+These differences are highlighted in white.
 
 <img src="https://user-images.githubusercontent.com/89489298/149049388-09f9c74f-dbf8-49e7-89ed-3ac47299e7a0.png" width="785" height="594">
 . The program then proceeds to take the coordinates of these differences and box them at the correct location over the original color feed. 
