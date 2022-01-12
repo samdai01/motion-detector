@@ -11,11 +11,11 @@ Example motion graph output:
 ![image](https://user-images.githubusercontent.com/89489298/149059286-ca1bdeae-87f9-4e89-9fb4-5c2c311b9bd7.png)
 
 # Process
-* This program first takes the first input frame from the video and sets it as the background. It will then proceed to compare each subsequent frame with this original background frame and highlight the differences.                                                                                                                       
+* This program takes the first input frame from the video and sets it as the background. It will then proceed to compare each subsequent frame with this original background frame and highlight the differences.                                                                                                                       
 
 <img src="https://user-images.githubusercontent.com/89489298/149049540-697bc27c-95ff-4483-ae13-4f9b52146137.png" width="785" height="594"> 
 
-* First, the program takes each frame of the input feed from the camera, converts it to grayscale, and blurs it to make the differences clearer.
+* Next, the program takes each frame of the input feed from the camera, converts it to grayscale, and blurs it to make the differences clearer.
 
  <img src="https://user-images.githubusercontent.com/89489298/149049273-dad07f27-fb1c-4472-b463-dc95a60a69aa.png" width="785" height="594">
 
