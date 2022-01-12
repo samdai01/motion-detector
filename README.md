@@ -2,8 +2,9 @@
 This program takes an input feed and detects new objects that enter the field of vision of the camera. Implemented in python with the use of the OpenCV libaray for motion detection, video highlighting, and object highlights. 
 
 # Example Output
-Motion detector in action.
+Motion detector in action:
 
+![Alt Text](https://media.giphy.com/media/ZUnsOBQ8d4DSi6AxqD/giphy-downsized-large.gif)
 
 Example motion graph output:
 
