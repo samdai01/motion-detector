@@ -1,7 +1,7 @@
 # ********************************************************************************
 # Plotting script that executes capture_video and plots the object enter and exit
 # data.
-# Written by Sam Dai
+# Written by Sam Dai 
 # ********************************************************************************
 
 # Importing of dataFrame data from capture_video and needed bokeh plotting libraries.
