@@ -7,4 +7,6 @@ First you will need to install the OpenCV library using the command "pip3.9 inst
 You will also have to install the pandas library and bokeh libraries if not done so. When running the program, make sure the program starts with the background with no objects in it (explained below).
 
 # Process
+This program first takes the first input frame from the video and sets it as the background. It will then proceed to compare each subsequent frame with this original background frame and highlight the differences.
+
 The program takes each frame of the input feed from the camera and converts it to a grayscale image, then a black and white image that is composed of the differences between the first frame and the current frame. These differences are highlighted in white. The program then proceeds to take the coordinates of these differences and box them at the correct location over the original color feed. 
