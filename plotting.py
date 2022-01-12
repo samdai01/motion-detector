@@ -18,7 +18,7 @@ f.yaxis.minor_tick_line_color = None
 f.xgrid.grid_line_color = None
 f.ygrid.grid_line_color = None
 
-# 
+# Creates the graph elements based on the output data times.
 glyph = f.quad(left = dataFrame["Start Times"], right = dataFrame["End Times"], bottom = False, top = True, color = "blue")
 
 output_file("motionData.html")
