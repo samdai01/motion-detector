@@ -9,6 +9,6 @@ The program takes each frame of the input feed from the camera and converts it t
 # Setup and Installation Requirements:
 First you will need to install the OpenCV library using the command "pip3.9 install opencv-python". If there is still an error in the code on the "import cv2" line, run the command "pip3.9 uninstall opencv-python" and then "pip3.9 install opencv-python opencv-python-headless". 
 
-You will also have to install the pandas library and bokeh libraries if not done so. When running the program, make sure the program starts with the background with no objects in it (explained below).
+You will also have to install the pandas library and bokeh libraries if not done so. When running the program, make sure the program starts with the background with no objects in it (explained below). Make sure that you are running 'plotting.py' and 'capture_video.py' is in the same folder. 
 
 
