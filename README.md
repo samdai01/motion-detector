@@ -4,7 +4,7 @@ This program takes an input feed and detects new objects that enter the field of
 # Process
 This program first takes the first input frame from the video and sets it as the background. It will then proceed to compare each subsequent frame with this original background frame and highlight the differences. 
 
-<img src="https://user-images.githubusercontent.com/89489298/149049540-697bc27c-95ff-4483-ae13-4f9b52146137.png" width="100" height="100">
+<img src="https://user-images.githubusercontent.com/89489298/149049540-697bc27c-95ff-4483-ae13-4f9b52146137.png" width="831" height="1098">
 
 
 
