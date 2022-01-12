@@ -8,7 +8,7 @@ This program takes an input feed and detects new objects that enter the field of
 * The program takes each frame of the input feed from the camera, converts it to grayscale, and blurs it to make the differences clearer.\                                         <img src="https://user-images.githubusercontent.com/89489298/149049273-dad07f27-fb1c-4472-b463-dc95a60a69aa.png" width="785" height="594">
 
 
-* Then a black and white image that is composed of the differences between the first frame and the current frame.\                                                      
+* Then a black and white image that is composed of the differences between the first frame and the current frame.                                                                                                                                                            
 
 <img src="https://user-images.githubusercontent.com/89489298/149049365-e5afdeb8-86f8-44b6-9d4e-18d0918b596b.png" width="785" height="594">
 * These differences are highlighted in white.\
