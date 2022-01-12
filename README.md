@@ -15,7 +15,7 @@ This program takes an input feed and detects new objects that enter the field of
 
 <img src="https://user-images.githubusercontent.com/89489298/149049365-e5afdeb8-86f8-44b6-9d4e-18d0918b596b.png" width="785" height="594">
 
-* These differences are then "binary" converted where the difference is completely white, and the rest completely black. The find contours method will then highlight the white parts of this simplified frame and then provide coordinates for the drawing of the rectangle. 
+* These differences are then "binary" converted where the difference is completely white, and the rest completely black. The `cv2.findContours()` method will then highlight the white parts of this simplified frame and then provide coordinates for the drawing of the rectangle. 
 
 <img src="https://user-images.githubusercontent.com/89489298/149049388-09f9c74f-dbf8-49e7-89ed-3ac47299e7a0.png" width="785" height="594"> 
 
