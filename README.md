@@ -9,10 +9,6 @@ Example motion graph output:
 
 ![image](https://user-images.githubusercontent.com/89489298/149059286-ca1bdeae-87f9-4e89-9fb4-5c2c311b9bd7.png)
 
-![motiondata](https://user-images.githubusercontent.com/89489298/149059309-1d9360a3-3047-4141-be62-62a93cf25958.jpg)
-
-
-
 # Process
 * This program first takes the first input frame from the video and sets it as the background. It will then proceed to compare each subsequent frame with this original background frame and highlight the differences.                                                                                                                       
 
