@@ -8,7 +8,7 @@ This program first takes the first input frame from the video and sets it as the
 
 
 
-The program takes each frame of the input feed from the camera and converts it to a grayscale image ![image](https://user-images.githubusercontent.com/89489298/149049273-dad07f27-fb1c-4472-b463-dc95a60a69aa.png)
+The program takes each frame of the input feed from the camera and converts it to a grayscale image                                                                             <img src="https://user-images.githubusercontent.com/89489298/149049273-dad07f27-fb1c-4472-b463-dc95a60a69aa.png" width="785" height="594">
 , then a black and white image that is composed of the differences between the first frame and the current frame ![image](https://user-images.githubusercontent.com/89489298/149049365-e5afdeb8-86f8-44b6-9d4e-18d0918b596b.png)
 . These differences are highlighted in white ![image](https://user-images.githubusercontent.com/89489298/149049388-09f9c74f-dbf8-49e7-89ed-3ac47299e7a0.png)
 . The program then proceeds to take the coordinates of these differences and box them at the correct location over the original color feed. 
